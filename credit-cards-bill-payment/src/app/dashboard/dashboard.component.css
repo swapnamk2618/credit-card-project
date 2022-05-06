@@ -1,0 +1,71 @@
+
+*{
+    box-sizing: border-box;
+}
+
+.dashboardContainer{
+    margin-top: 200px;
+
+   
+}
+.credit-cards{
+    float: left;
+    padding: 0 24px;
+}
+.example-card {
+    max-width: 410px;
+    margin-bottom: 8px;
+    height: 240px;
+    background-color: rgb(168, 14, 109);
+    box-shadow: 5px 3px 10px 5px gray;
+  }
+  .mat-card-title{
+      color: white;
+  }
+  .mat-card-subtitle{
+      color: white;
+  }
+  button{
+      background-color: white;
+      height: 40px;
+      width: 160px;
+      margin-left: 20px;
+  }
+  .logo{
+      height: 40px;
+      width: 50px;
+      background-color: goldenrod;
+  }
+  .mat-card-content{
+      margin-top: 30px;
+  }
+  .mat-card-content{
+      color: white;
+  }
+  span{
+      color:white;
+  }
+  .example-card-canara{
+    max-width: 410px;
+    margin-bottom: 8px;
+    height: 240px;
+    background-color: rgb(22, 77, 160);
+    box-shadow: 5px 3px 10px 5px gray;
+
+  }
+  .example-card-hdfc{
+    max-width: 410px;
+    margin-bottom: 8px;
+    height: 240px;
+    background-color: rgb(22, 77, 160);
+    box-shadow: 5px 3px 10px 5px gray;
+    background-image: linear-gradient(to right, rgb(26, 26, 24),rgb(203, 212, 65));
+
+  }
+  @media screen and(max-width:600px) {
+      .credit-cards{
+          width: 100%;
+          display: block;
+          margin-bottom: 20px;
+      }
+  }
