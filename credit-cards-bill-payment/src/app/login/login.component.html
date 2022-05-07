@@ -4,7 +4,7 @@
       <form [formGroup]="loginForm" (ngSubmit)="login()">
           <!--Email-->
         <div class="form-group">
-          <label  for="email" class="fa fa-envelope"></label>
+          <label  for="email"></label>
           <input
             type="email"
             placeholder="Email Address" 
@@ -17,11 +17,11 @@
               loginForm.controls['email'].touched &&
               loginForm.controls['email'].hasError('required')
             ">
-            <h6>*enter the registered email</h6></span>
+            <h6>*Enter the registered email</h6></span>
         </div>
            <!--password-->
         <div class="form-group">
-          <label for="password" class="fa fa-lock"></label>
+          <label for="password"></label>
           <input
             type="password"
             placeholder="Password"
@@ -34,10 +34,10 @@
               loginForm.controls['password'].touched &&
               loginForm.controls['password'].hasError('required')
             "
-            ><h6>*create a strong password</h6></span
+            ><h6>*Create a strong password</h6></span
           >
         </div>
-
+        <!--Login-->
         <div class="text-center">
           <button
             id="submitButton"
@@ -48,6 +48,7 @@
             Login
           </button>
         </div>
+        <!--Login sucessMessage-->
         <div class="text-center text-success" *ngIf="successMessage">
           {{ successMessage }}
         </div>

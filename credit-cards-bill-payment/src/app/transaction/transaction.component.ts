@@ -11,8 +11,6 @@ export class TransactionComponent implements OnInit {
   constructor() {
     this.getData();
    }
-
-  
   array:any=[{
     Id:1,
     Date:'21-5-2022',
@@ -38,6 +36,11 @@ Amount:50000,
   Date:'26-7-2013',
 Amount:50000,
 },
+{
+  Id:6,
+  Date:'26-7-2019',
+Amount:150000,
+}
 
 ]
 tabKey:any=[];

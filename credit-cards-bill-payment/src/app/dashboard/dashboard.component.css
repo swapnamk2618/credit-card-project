@@ -4,9 +4,7 @@
 }
 
 .dashboardContainer{
-    margin-top: 200px;
-
-   
+    margin-top: 150px;  
 }
 .credit-cards{
     float: left;
@@ -30,6 +28,7 @@
       height: 40px;
       width: 160px;
       margin-left: 20px;
+      border: none;
   }
   .logo{
       height: 40px;

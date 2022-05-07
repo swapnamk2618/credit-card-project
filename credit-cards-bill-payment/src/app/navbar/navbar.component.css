@@ -1,9 +1,10 @@
-    /* You can add global styles to this file, and also import other style files */
+/*Navbar css design*/
     *{
         box-sizing: border-box;
         padding:0;
         margin:0;
     }
+
     .active{
         color: orange;
     }
@@ -14,6 +15,7 @@
         font-weight: bold;
         margin-left: 80px; 
     } 
+
     .navbar{
         width:100%;
         margin-top: 30px;
@@ -21,25 +23,34 @@
         display: flex;
         flex-direction: row;
         align-items: baseline;
-        justify-content: space-around;
-        
+        justify-content: space-between;
+        margin-left: 15px;
     }
+
     .logo{
         color:black;
-        font-weight: bolder;
-        
+        font-weight: bolder;     
     }
+
     button{
         width:120px;
         height:40px;
+        margin-top:20px;
         color:white;
         background-color: red;
         border-radius: 5px;
         border:none;  
         cursor: pointer; 
+        margin-right: 40px;
     }
+
     button:hover{
         background-color: rgb(240, 44, 44);
+    }
+
+    span{
+        font-family: sans-serif;
+        color:rgb(34, 13, 29);
     }
     
     

@@ -16,6 +16,8 @@ import { PaymentComponent } from './payment/payment.component';
 import {HttpClientModule} from '@angular/common/http';
 import { TransactionComponent } from './transaction/transaction.component';
 import { FormsModule } from '@angular/forms';
+import { AuthComponent } from './auth/auth.component';
+
 
 @NgModule({
   declarations: [
@@ -27,6 +29,7 @@ import { FormsModule } from '@angular/forms';
     NavbarComponent,
     PaymentComponent,
     TransactionComponent,
+    AuthComponent,
   ],
   imports: [
     BrowserModule,ReactiveFormsModule,

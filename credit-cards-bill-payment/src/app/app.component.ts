@@ -6,11 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'credit-cards-bill-payment';
-  flag:boolean = true
-
-
-  apply(value:string){
-    this.flag = value == "login"?true : false;
-}
+ 
 }

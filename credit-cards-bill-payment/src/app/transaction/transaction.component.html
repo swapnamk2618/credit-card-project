@@ -1,15 +1,25 @@
-<h6>Transaction History</h6>
+<!--Navbar section-->
+
+<header>
+    <nav class="navbar">
+    <h2 class="logo"><span>Transaction History </span></h2>
+    <div class="nav-links">
+    <a routerLink="/login" routerLinkActive="active"> <button>Logout </button></a>
+    </div>
+    </nav>
+    <router-outlet></router-outlet>
+    </header>
+
+<!--Navbar section End-->
 
 <table>
     <tr>
     <th *ngFor="let key of tabKey">{{key}}</th>
-    
 </tr>
 <tbody>
     <tr *ngFor="let arr of tabValue">
         <td *ngFor="let val of arr">{{val}}</td>   
     </tr>
 </tbody>
-
 </table>
-<button>Pay Now</button>
+<button class="btn">Pay Now</button>

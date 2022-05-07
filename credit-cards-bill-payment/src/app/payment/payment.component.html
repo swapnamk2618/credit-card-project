@@ -1,10 +1,27 @@
-<label id="example-radio-group-label">Pick your favorite season</label>
-<mat-radio-group
-  aria-labelledby="example-radio-group-label"
-  class="example-radio-group"
-  >
-  <mat-radio-button class="example-radio-button" *ngFor="let season of seasons" [value]="season">
-    {{season}}
-  </mat-radio-button>
-</mat-radio-group>
-<div>Your favorite season is: </div>
+<!--navbar-->
+<!--Navbar section-->
+
+<header>
+  <nav class="navbar">
+  <h2 class="logo"><span>Make your payment more convenient</span></h2>
+  
+  </nav>
+  <router-outlet></router-outlet>
+  </header>
+
+<!--Navbar section End-->
+
+<div class="mainDiv">
+<div class="radioButton">
+<!-- Default checked -->
+<div class="custom-control custom-radio">
+  <input type="radio" class="custom-control-input" id="defaultChecked" name="defaultExampleRadios" checked mdbInput>
+  <label class="custom-control-label" for="defaultChecked">Full Payment</label>
+</div>
+<!-- Default unchecked -->
+<div class="custom-control custom-radio">
+  <input type="radio" class="custom-control-input" id="defaultUnchecked" name="defaultExampleRadios" mdbInput>
+  <label class="custom-control-label" for="defaultUnchecked">Partial Payment</label>
+</div>
+</div>
+</div>

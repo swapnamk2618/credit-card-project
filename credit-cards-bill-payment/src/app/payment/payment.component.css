@@ -1,10 +1,70 @@
-.example-radio-group {
-    display: flex;
-    flex-direction: column;
-    margin: 15px 0;
-  }
-  
-  .example-radio-button {
-    margin: 5px;
-  }
-  
+.mainDiv{
+  height:100%;
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.radioButton{
+  height:50%;
+  width:40%;
+  background-color: transparent;
+  box-shadow: 3px 3px 6px 3px grey; 
+}
+/*Navbar css design*/
+*{
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+}
+
+.active{
+  color: orange;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color:black;
+  font-weight: bold;
+  margin-left: 80px; 
+} 
+
+.navbar{
+  width:100%;
+  padding:20px;
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+ background-image: linear-gradient(to right, rgb(101, 154, 185),rgb(40, 172, 99)); 
+}
+
+.logo{
+  color:black;
+  font-weight: bolder;     
+}
+
+button{
+  width:120px;
+  height:40px;
+  margin-top:15px;
+  color:white;
+  background-color: blue;
+  border-radius: 5px;
+  border:none;  
+  cursor: pointer; 
+ margin-right: 30px;
+}
+
+button:hover{
+background-color: rgb(240, 44, 44);
+}
+
+span{
+  font-family: sans-serif;
+  color:white;
+}
+
+
+
