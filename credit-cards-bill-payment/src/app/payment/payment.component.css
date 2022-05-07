@@ -1,6 +1,10 @@
-#cardStyle{
-    /* background-image: linear-gradient(to right, rgba(230,190,231,1),rgba(170,201,234,1)); */
-
-    background-color: rgb(216, 37, 37);
-    box-shadow: 3px 3px 6px 3px gray;
-}
+.example-radio-group {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+  }
+  
+  .example-radio-button {
+    margin: 5px;
+  }
+  

@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./payment.component.css']
 })
 export class PaymentComponent implements OnInit {
-
+    seasons: string[] = ['Winter', 'Spring', 'Summer', 'Autumn'];
   constructor() { }
 
   ngOnInit(): void {
