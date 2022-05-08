@@ -43,10 +43,10 @@
             id="submitButton"
             type="submit"
             class="btn btn-danger"
-            [disabled]="!loginForm.valid" (click)="onLogin()"
-          >
-            Login
-          </button>
+            [disabled]="!loginForm.valid"  routerLink='/dashboard'
+           >
+          Login
+          </button>   
         </div>
         <!--Login sucessMessage-->
         <div class="text-center text-success" *ngIf="successMessage">
@@ -56,3 +56,7 @@
     </div>
   </div>
 </div>
+
+
+
+

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
-import { LoginCustomerService } from '../service/login-customer.service';
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
@@ -10,7 +10,7 @@ export class LoginComponent implements OnInit {
    
   successMessage:string ="";
   loginForm!: FormGroup; 
-  constructor(private fb: FormBuilder,private loginService:LoginCustomerService) { }
+  constructor(private fb: FormBuilder,private router: Router) { }
 
   ngOnInit(): void {
     this.loginForm = this.fb.group({
@@ -22,13 +22,11 @@ export class LoginComponent implements OnInit {
   login(){
     this.successMessage="Please wait logging in..."
      console.log(this.loginForm)
+    
   }
-
-  onLogin(){
-    this.loginService.login(this.loginForm.value)
-    .subscribe((res)=>{
-      console.log(res);
-    })
-  }
+//   gotoHome(){
+//     this.router.navigate(['/dashboard']);  // define your component where you want to go
+// }
+  
 }
 

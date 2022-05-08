@@ -1,20 +1,19 @@
 <!-- Cards with media area -->
+<app-navbar></app-navbar>
 <div class="dashboardContainer"></div>
 <div class="credit-cards">
   <mat-card class="example-card">
     <mat-card-title-group>
       <mat-card-title>AXIS BUZZ</mat-card-title>
       <span>AXIS BANK</span>
-
       <mat-card-subtitle>3423 45XX XXXX 2345</mat-card-subtitle>
     </mat-card-title-group>
-
     <div class="logo"></div>
     <mat-card-content>
       {{ longText }}
     </mat-card-content>
-    <button>Pay bill </button>
-    <button>View Transaction</button>
+    <button routerLink='/payment'>Pay bill </button>
+    <button routerLink='/transaction'>View Transaction</button>
   </mat-card>
 </div>
 

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {FormGroup,FormBuilder,Validators} from '@angular/forms'
-import { RegisterCustomerService } from '../service/register-customer.service';
+import { RegisterCustomerService } from 'src/app/service/register-customer.service';
 @Component({
   selector: 'app-register',
   templateUrl: './register.component.html',
