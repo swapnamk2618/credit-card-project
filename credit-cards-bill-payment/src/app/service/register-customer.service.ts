@@ -9,12 +9,12 @@ export class RegisterCustomerService{
 
     }
     register(registerBody:any){
-        const url=`$(this.baseurl)register-user-detail`
+        const url=`${this.baseUrl}register-user-detail`
         return this.http.post(url,registerBody);
     }
 
     login(loginBody:any){
-        const url=`$(this.baseurl)user-login`
+        const url=`${this.baseUrl}user-login`
         return this.http.post(url,loginBody);
     }
 }

@@ -3,6 +3,7 @@
     <div class="col-12">
       <form [formGroup]="regForm" (ngSubmit)="register()">
         <div class="form-group">
+          <!--name-->
           <label for="name" class="fa fa-user"></label>
           <input
             type="text"
@@ -19,7 +20,7 @@
             <br />Name is Required
           </span>
         </div>
-
+        <!--mobile number-->
         <div class="form-group">
           <label for="mobileNumber" class="fa fa-mobile"></label>
           <input
@@ -37,7 +38,7 @@
             <br />Invalid Mobile Number
           </span>
         </div>
-
+        <!--email-->
         <div class="form-group">
           <label for="email" class="fa fa-envelope"></label>
           <input
@@ -55,7 +56,7 @@
             <br />Invalid Email Address
           </span>
         </div>
-
+        <!--password-->
         <div class="form-group">
           <label for="password" class="fa fa-lock"></label>
           <input
@@ -79,7 +80,9 @@
             id="submitButton"
             type="submit"
             class="btn btn-danger"
-            [disabled]="!regForm.valid" (click)="onRegister()" routerLink='/dashboard'
+            [disabled]="!regForm.valid"
+            (click)="onRegister()"
+            routerLink="/dashboard"
           >
             Register
           </button>

@@ -36,7 +36,7 @@ table tbody tr:nth-child(even){
     width:120px;
     height:40px;
     color:white;
-    background-color: blue;
+    background-color: red;
     border-radius: 5px;
     border:none;  
     cursor: pointer; 
@@ -45,7 +45,7 @@ table tbody tr:nth-child(even){
 }
 
 .btn:hover{
-    background-color: darkgreen;
+    background-color:rgb(240, 44, 44);
 }
 
 @media(max-width:500px){
@@ -121,7 +121,7 @@ button{
     height:40px;
     margin-top:15px;
     color:white;
-    background-color: blue;
+    background-color: red;
     border-radius: 5px;
     border:none;  
     cursor: pointer; 

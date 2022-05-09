@@ -3,16 +3,14 @@
     box-sizing: border-box;
 }
 
-.dashboardContainer{
-    margin-top: 150px;  
-}
+
 .credit-cards{
     float: left;
-    padding: 0 24px;
+    padding: 0 24px; 
 }
 .example-card {
     max-width: 410px;
-    margin-bottom: 8px;
+    margin-bottom: 38px;
     height: 240px;
     background-color: rgb(168, 14, 109);
     box-shadow: 5px 3px 10px 5px gray;
@@ -65,6 +63,6 @@
       .credit-cards{
           width: 100%;
           display: block;
-          margin-bottom: 20px;
+          margin-bottom: 50px;
       }
   }
