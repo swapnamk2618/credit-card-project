@@ -8,13 +8,13 @@
           <input
             type="text"
             placeholder="Enter Your Name"
-            formControlName="name"
+            formControlName="userName"
           />
           <span
             class="text-danger"
             *ngIf="
-              regForm.controls['name'].touched &&
-              regForm.controls['name'].hasError('required')
+              regForm.controls['userName'].touched &&
+              regForm.controls['userName'].hasError('required')
             "
           >
             <br />Name is Required
@@ -26,13 +26,13 @@
           <input
             type="tel"
             placeholder="Mobile Number"
-            formControlName="mobileNumber"
+            formControlName="mobileNo"
           />
           <span
             class="text-danger"
             *ngIf="
-              regForm.controls['mobileNumber'].touched &&
-              regForm.controls['mobileNumber'].hasError('required')
+              regForm.controls['mobileNo'].touched &&
+              regForm.controls['mobileNo'].hasError('required')
             "
           >
             <br />Invalid Mobile Number
@@ -44,13 +44,13 @@
           <input
             type="email"
             placeholder="Email Address"
-            formControlName="email"
+            formControlName="userEmail"
           />
           <span
             class="text-danger"
             *ngIf="
-              regForm.controls['email'].touched &&
-              regForm.controls['email'].hasError('required')
+              regForm.controls['userEmail'].touched &&
+              regForm.controls['userEmail'].hasError('required')
             "
           >
             <br />Invalid Email Address
@@ -62,13 +62,13 @@
           <input
             type="password"
             placeholder="Password"
-            formControlName="password"
+            formControlName="userPassword"
           />
           <span
             class="text-danger"
             *ngIf="
-              regForm.controls['password'].touched &&
-              regForm.controls['password'].hasError('required')
+              regForm.controls['userPassword'].touched &&
+              regForm.controls['userPassword'].hasError('required')
             "
           >
             <br />Atleast 6 character Password is Required
